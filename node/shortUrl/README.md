@@ -15,8 +15,10 @@ npm i
 ```
 
 3. 建表
+
+需要先修改database目录中的`config.json`
 ```
-sequelize db:migrate
+npx sequelize db:migrate
 ```
 
 4. 启动
